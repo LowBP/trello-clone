@@ -1,0 +1,12 @@
+.root-wrapper{
+    display: block;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.layout-wrapper{
+    display: flex;
+    flex-direction: row;
+}
