@@ -1,0 +1,20 @@
+.trello-boards-last {
+    flex-basis: 290px;
+    min-width: 290px;
+}
+
+
+.trello-boards-add-board {
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+}
+
+.trello-boards-add-board-edit {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+.my-board-list{
+    display: block;
+    padding: 2px 0;
+    list-style: none;
+    margin: 0;
+}
+.my-board-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    transition-property: background-color, border-color, box-shadow;
+    transition-duration: 85ms;
+    transition-timing-function: ease;
+    color: var(--dynamic-text-color, #ffffff);
+}
+
+.my-board-list-item a{
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--dynamic-text-color);
+    margin-bottom: 0;
+    flex-grow: 1;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.my-board-list-item a:hover{
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+.my-board-list-item:hover{
+    background-color: var(--dynamic-nav-button-background-color-hovered, hsla(0, 0%, 100%, 0.16));
+    
+}
+.my-board-list-item-active{
+    background-color: var(--dynamic-nav-button-background-color-pressed, hsla(0, 0%, 100%, 0.3));
+}
