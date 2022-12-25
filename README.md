@@ -2,6 +2,8 @@
 
 This Project is to clone Trello using react, local storage, and typescript where users can manage tasks using Trello clone
 
+Deployed app URL : https://lowbp.github.io/
+
 FYI: Not focused much on style improvements
 
 ## Screenshots 
